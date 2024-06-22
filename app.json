@@ -19,21 +19,21 @@
        },
     "antidelete": {
       "description": "bot will forward deleted messages if you make it true",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
        },
     "statusview": {
       "description": "make it true if you want bot to view status",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "autoRead": {
       "description": "make it true if you want bot to read messages",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "SESSION_ID": {
-      "description": "your session id",
+      "description": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVU8rU2RrOCtIWm9BbkNpdFRBTFBTWTZBTFZaNElHMlRSaUg0WmJwVFpFMD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNkVRWC9WYnA5cU5pYytYK0JwS3N4aGJlYzNnY0RBMGxxN1hpTlZlMFptND0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI2QjhIQjhNTFN0MXYwd0ZpZ01VYXhObG1IUXBOQ2RZajExVTNkTVR3TDBNPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIreFFOVStucXozUUg2QXVTT2JtQmFqNW1xN3N3TkdSOVJIYjJ6Y3lnNjNFPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IndOWEUwcDM2d3J0N1RiN3dWV21tSkdNQTU0a2pSQ0luRmdnTHozOXpwVm89In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik9ENE42M1FSa2hkZmx6QVlTOHROMGJpb280S2x6L29kV2M0UXVHOWFNelk9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTUFFYTg3b2ZHR3MwSEt5TjdRRUFnUWpHYmtEZHRSQzN2M1lIL3d5a2NrOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiV0cxeG5qRFdVSU1lV2tHb2MvTFVyb1haYzBNZVUwU0J6MjB3cWtWTVlCVT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkVSS0wxTHYvdmhUb3dpa1RBKzFxNThQWDgrOVNUUDdicnEycjRKTStIRnJXZUtBV3FBa3pFUCtXeGN4RHk1N3VVZXpkYkM1OTZEdHpKRE1DRlB3MGpBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6NTMsImFkdlNlY3JldEtleSI6InJSbzNYQmNLNjIyL2NYVlBZRTJTcFA0d3pqNjJ2UHZ1VVVDK3BBYlJEMDQ9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IkNMWUh4eWozUmdxbjZESDl4Uk0xNHciLCJwaG9uZUlkIjoiZTEyN2ZjZWQtNDg1Yy00MzVkLThmNjUtYzc2MGQ1OTA4M2QyIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkRmWThwbGRTVXNRckZIdnJVRWVpaG5rRnBhdz0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJXNHY5SU9ZMGNCNW1lditPZktXMHRzSm1Gd009In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiREZRQ1oyMlAiLCJtZSI6eyJpZCI6IjkyMzQzNjA2Mjk3NTozNEBzLndoYXRzYXBwLm5ldCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDSlN5eGFzRUVKaTkyck1HR0FrZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiVHZFdGpCNC9qWElYQnlUWDVKU1l0K2NoSDBkWUZkL3RFbk5ndVlZdDFrYz0iLCJhY2NvdW50U2lnbmF0dXJlIjoiZHp0RktsV0xNVzdJd0ljM05maFV2OTBnaWMvckhLV3BYTTc0UlVHL2dsWEhSRklpOFRxWE02bEJ3L0tIdC9paldNZzFxQlI4Q1VWNTNTdkpPRGo3Q3c9PSIsImRldmljZVNpZ25hdHVyZSI6ImlIaXdQYkZhaWhBMk5lT0pWMTkvY2o0OWlqeUg2QmppWVZWUnVxZGJmOVd4cXltTzliOUR3aUpnZFpFTzVFYVdBN0ZqM3NGclZRaFZBS2c2Q3RkYWh3PT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiOTIzNDM2MDYyOTc1OjM0QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlU3eExZd2VQNDF5RndjazErU1VtTGZuSVI5SFdCWGY3Ukp6WUxtR0xkWkgifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MTkwNDk4OTQsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBRmZQIn0=",
       "required": true,
       "value": ""
     }
