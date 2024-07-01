@@ -5,7 +5,7 @@ import fs from 'fs'
 
 //Owner Numbers 
 global.owner = [
-  ['923135673658', 'wasi', false],
+  ['923000677729', 'MAJID KHAN', false],
   [''], 
   [''],
 ]
@@ -37,10 +37,10 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = '𝗪𝗔𝗦𝗜-𝗠𝗗'
-global.princebot = '🛡️𝗪𝗔𝗦𝗜 𝗧𝗘𝗖𝗛🛡️'
-global.packname = '𝗪𝗔𝗦𝗜♥️' 
-global.author = '𝗧𝗘𝗖𝗛♥️' 
+global.botname = 'MAJID-𝗠𝗗'
+global.princebot = '🛡️MAJID 𝗧𝗘𝗖𝗛🛡️'
+global.packname = 'MAJID♥️' 
+global.author = 'KHAN♥️' 
 global.princeig = 'https://www.instagram.com' 
 global.princegp = 'https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j'
 global.menuvid = 'https://i.imgur.com/0UK6D3b.mp4'
